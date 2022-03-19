@@ -1,0 +1,18 @@
+<script>
+   window.onload = function(){
+        var x=document.getElementById("display");
+        var p=document.createElement("p");
+        p.innerHTML = "This is a paragraph with a ";              
+        var a=document.createElement("a");
+        a.setAttribute("href","index.html");        
+        var text2=document.createTextNode("link");  
+        a.appendChild(text2);     
+        p.appendChild(a);       
+        p.innerHTML+=" in it.";
+        x.appendChild(p);
+                           
+    }    
+</script>
+<html>    
+    <div id="display"></div>    
+</html>

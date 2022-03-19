@@ -1,0 +1,16 @@
+Client Side & Validation
+1)HTML 5
+
+Client Side -> synlax/format to data(proper format of date,posted) -> vaild data
+
+     +
+
+Server Side -> correctness (worng pass/user)
+
+
+1) form name
+2) input name
+3) add onsubmit=return<functioname>(); to the form tag;
+4) if this returns false, form doesn't get submited
+　 if this returns ture, form get submited
+5) value of entered text acan be found using value

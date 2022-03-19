@@ -1,0 +1,19 @@
+<script>
+var title = "This is my title";
+var studentarry=["bob","jane","marry","even"];
+window.onload=function(){
+	var mytitle=document.queryselector("#a");
+	mytitle.innerhtml="<i>"+title+"</i>";
+	var studentinfo = document.queryselector("#b");
+	studentinfo.innerhtml="<ul>";
+
+	for(var i=0;i<studentarry.length;i++){
+	
+		studentinfo.innerhtml+="<p>"+studentarry[i]+"<p>";	
+	}
+
+};
+</script>
+
+<h1 id="a"></h1>
+<p id="b"></p>

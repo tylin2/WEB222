@@ -1,0 +1,10 @@
+1) submit the info
+2) get a confirmation and be directed to a particular page
+
+
+id
+action:what page do open/what to do next?
+method:?? to transfer and to the ??
+
+1) Type
+2) 

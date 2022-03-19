@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <title>Simple Form-on class</title>
+</head>
+<body>
+    <h3>Example: Simple HTML Form with method='get'</h3>
+    <form action="https://web222.ca" method="get">
+      <p>
+        First name:<br>
+        <input type="hidden" name="firstname" >
+      
+        Last name:
+        <input type="password" name="lastname">
+      </p>
+      <p>   
+        Email:
+        <input type="email" name="email" value="@gmail.com">
+      </p>
+      <p>
+        Picture:
+        <blockquote>        
+        <input type="file" name="file1" >
+        <br>        
+        <input type="file" name="file2" multiple>
+        </blockquote>        
+      </p>
+      <p>
+        Gender:<br>
+        <input type="radio" name="sex" value="male" checked>Male
+        <input type="radio" name="sex" value="female">Female
+        <br>
+      </p>
+      <p>
+        Courses:
+        <br>        
+        <input type="checkbox" name="a" value="2" checked>web222
+        <br>
+        <input type="checkbox" name="a" value="2">web322
+        <br>
+        <input type="checkbox" name="a" value="2">web422        
+      </p>
+      <p>
+          Province:
+          <input type="text" list="provinces" name="province">
+          <datalist id="provinces">
+          <option value="ON">
+          <option value="QC">
+          <option value="NS">
+          <option value="NB">
+          <option value="MB">
+          </datalist>
+      </p>
+      <p>
+        Phone Number:<br>
+        <input type="tel" name="phone">
+      </p>
+      <p>
+        <input type="button" value="back">
+      </p>
+      <p>
+        <select name="to-do-list" size="4" multiple>
+          <option value="1" selected>play the piano</option>
+          <option value="2">dance in the room</option>
+          <option value="3">draw on the wall</option>
+          <option value="4">sing at the airport</option>
+          <option value="5">write assignment</option>
+        </select>
+      </p>
+      <p>
+        Disable value:
+        <input disabled value="This can't be edited." name="news1">
+        <br>
+        Readonly value:                  
+        <input readonly value="This is already submited, and can't replace!!" name="news2" size="53">         
+      </p>
+      <p>
+        Give us some feedback with spelling check:
+        <br>
+        <textarea name="comment" cols="65" rows="4">write something for us!!</textarea>
+      </p>
+      <br>
+      <p>
+        <input type="submit" value="Submit">
+        <button type="reset">Clear</button>
+      </p>
+    </form>
+
+  
+   <!-- for view-source and download -->
+   <br><p> <a href='' download>Download</a></p>
+</body>
+</html>

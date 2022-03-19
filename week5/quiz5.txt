@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Martins Home Page</title>
+</head>
+<body>
+<h1>Welcome to the home page of Martin</h1>
+<img src="picture1.png" width="850" height="550">
+<p>To check out other blogs liks this,
+<a href="https://www.senecacollege.ca/home.html">Click here</a>
+</p>
+<h2>Martins Favorite foods</h2>
+<ol>
+<li>Fried Chicken</li>
+<li>Burgers</li>
+<li>Pizza</li>
+<li>Desserts</li>
+<ul>
+<li>Cakes</li>
+<li>Ice Cream</li>
+<li>Pies</li>
+</ul>
+<li>Beef Stroganoff</li>
+</ol>
+</body>
+</html>

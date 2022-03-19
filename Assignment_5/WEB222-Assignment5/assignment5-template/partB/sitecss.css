@@ -1,0 +1,58 @@
+/*******************************************************************
+* I declare that my assignment is wholly my own work in accordance
+with Seneca Academic Policy. No part of this assignment has been
+copied manually or electronically from any other source (including
+web sites) except for the information supplied by the WEB222
+instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed
+to other students.
+Name: Ting-Yeh Lin 
+Dated: 2019/11/29
+********************************************************************/
+table#tableleft{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: left;    
+    width: 45%;
+    background-color: lightcyan;
+    box-shadow: 3px 3px gainsboro;        
+}
+
+table#tableright{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    float: right;    
+    width: 45%;
+    background-color: lightcyan;
+    box-shadow: 3px 3px gainsboro;
+    border-bottom: 7px;
+}
+
+#name{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:brown;    
+    font-weight: bolder;
+}
+#cdn{
+    font-size: 5px;
+    vertical-align: top;
+}
+
+#price{
+    font-size: 15pt;
+    color:honeydew;
+    font-style: italic;
+    background-color:crimson;
+    font-weight: bold;          
+}
+tr #pic{
+    width: 100px;
+    text-align: center;    
+}
+#other{
+    color: gray;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}

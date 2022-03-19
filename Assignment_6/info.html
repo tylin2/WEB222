@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB222 Assignment 6 - info (Lin)</title>        
+    </head>
+    <script src="info.js"></script>
+    <body>
+        <form id="assignment6" name="info" method="post" action="https://httpbin.org/post" onsubmit="return formValidationExample();"><br>		  
+            <p>
+                First Name:            
+                <input id="FirstName" name="FirstName" placeholder="Start with a cap and only alphabet allowed" size=40 required>
+                <br>
+                <br>
+                Education Level:
+                <select name="EducationLevel" required>
+                        <option value="0">- select -</option>
+                        <option value="1">Technical Diploma</option>
+                        <option value="1">College Diploma</option>
+                        <option value="1">Bachelor's Degree</option>
+                        <option value="1">Master's Degree</option>
+                        <option value="2">Others</option>
+                </select>
+                <br>
+                <br>
+                Education Status:
+                <input type="radio" name="EducationStatus" value="1">Graduated
+                <input type="radio" name="EducationStatus" value="1">Current enrolled
+                <input type="radio" name="EducationStatus" value="1">Did not graduate
+                <br>
+                <br>
+                Email:
+                <input type="email" name="email" required>
+                <br>
+                <br>
+                Age(must be in between 18-60):
+                <input type="number" name="age" max="60" min="18" required>
+                <br>
+                <br>            
+               <input type="submit" value="Submit Information">                
+            </p>
+            <div id="errors"></div>            
+        </form>              
+       
+    </body>
+</html>

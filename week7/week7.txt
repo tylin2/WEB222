@@ -1,0 +1,78 @@
+html
+  |
+  '---head---title-->This is my first page
+  |
+  '---body
+        |
+        '---h1-->Hello there
+        |
+        '---p-->This is my first page
+<html>
+    <head>
+        <title>This is my title</title>
+    </head>
+    <h1 id="a">Hello there!</h1>
+    <p>This is my first html page</p>
+</html>
+
+console writing:
+console.log(doucument.title)
+output:This is my first page
+
+Finding reference points in my DOM tree:
+1) document.getElementById(id);         --> gets reference via elementId.
+2) document.querySelector(selector);    --> gets reference via a select.
+3) document.querySelectorAll();         --> selects all of the particular selections
+
+<html>
+    <head>
+        <title>This is my title</title>
+    </head>
+    <h1>Hello there!</h1>
+    <p id="c">This is my first html page</p>
+</html>
+
+getElementId example:
+  console writing:
+
+querySelector and querySellectAll:
+  console writing:
+    var a= doucument.querySelector("p");
+    a.innerHTML="THIS IS THE MODIFIED TEXT"
+    
+    IF THERE ARE P MORE THEN ONE:
+      var a= doucument.querySelector("p");
+      for(var i=0;i<a.length;i++)
+      a[i].innerHTML="THIS IS THE MODIFIED"
+      or
+      var a= doucument.querySelectAll("p");
+      a.innerHTML="THIS IS THE MODIFIED TEXT"
+
+Modifying DOM tree:
+1) creat Element
+2) creatTextNode
+3) appendChild
+
+to make add to a tree
+1) Creat the child
+2) Find the childs parent
+3) Add the child to the parent
+
+var b= doucument.creatElement("p");
+var c= doucument.creatTextNode("This is my new paragraph");
+var d= doucument.getElementById("a");
+doucument.dody.appendChild(b);
+b.appendChild(c);
+
+var b = document.getElementId("b");
+c.setAttribute("href",https://www....)
+
+Event:
+
+add:
+<button id="btn">this is my button</button>
+
+console write:
+var elem=document.querySelector("#btn");
+elem.onclick = function(){}
+

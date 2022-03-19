@@ -1,0 +1,15 @@
+colspan=2
+	make sure there is one cell less in that row
+rowspan=2
+	make sure there is one cell less in the next row
+
+block-elements: starts in a new line
+	<p><h1><div>(group block-elements together)
+
+inline elements: continues in its current line
+	<img><a><span>(group inline-elements together)
+
+
+step1. creat containers in HTML
+step2. write js code
+step3. writing the window.onload

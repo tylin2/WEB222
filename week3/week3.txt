@@ -1,0 +1,27 @@
+Built in functions: parseFlout(), parseInt(), console.log()
+
+Object---attributes
+       |
+       '-behaviour
+
+EX. 
+
+Car--attributes(properties):
+    |    color:red, white, blue
+    |    type:SUV, ran
+    |    make:toyota,honda,nissan
+    |    year:
+    '-behaviour(functions):
+         canSpeed()
+         canBreak()
+         canOpenDoor()
+         canCheckEngine() 
+
+Objects:
+1) String
+	length
+2) Array
+        push
+        pop
+3) RegExp
+        modifiers: g(globle match***),i,m

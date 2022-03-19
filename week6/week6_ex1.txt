@@ -1,0 +1,36 @@
+<table border="1">
+    <caption>Order Information</caption>
+
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Colour</th>
+            <th>Price (CAD)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Red</td>
+            <td>$5.60</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Blue</td>
+            <td>$3.00</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Blue</td>
+            <td>$1.50</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th colspan="2">Total</th>
+            <th>$26.60</th>
+        </tr>
+    </tfoot>
+</table>

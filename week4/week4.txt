@@ -1,0 +1,10 @@
+Objects:
+1) String
+2) Array
+3) RegExp
+4) Date
+5) Math
+
+
+1) literal notation
+2) function constructor

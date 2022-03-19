@@ -1,0 +1,47 @@
+<style>
+    p#userDetails,p#AdditionalDetails{
+        margin: 30px 0px;
+        border:gray solid 3px;        
+        padding: 10px;        
+    }   
+    #part1,#part2{
+        background-color: white;
+        position: absolute;
+        margin: -7px 15px;
+    }    
+</style>
+<html>  
+    <form name="test5" method="POST" action="">
+        <div id="part1">User Details</div>
+        <p id="userDetails">            
+            Email:
+            <input type="email" name="email">
+            <br>
+            Name:
+            <input name="UserName">
+            <br>
+            Gender:
+            <select name="gender">
+                <option name="gender" value="1" selected>Male</option>
+                <option name="gender" value="2">Female</option>
+            </select>
+        </p>
+        <div id="part2">Additional Details</div>    
+        <p id="AdditionalDetails">            
+            Address:
+            <textarea name="address" rows="4" cols="20">Enter your address</textarea>
+            <br>
+            Postal Code:
+            <input name="PostalCode">
+            <br>
+            Country:
+            <select name="country">
+                <option name="country" value="1" selected>USA</option>
+                <option name="country" value="2">Canada</option>
+            </select>
+            <br>
+            <input type="checkbox" checked> I acknowledge the signup coditions
+        </p>
+        <button type="submit">Create Account</button>
+    </form>
+</html>

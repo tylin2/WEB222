@@ -1,0 +1,21 @@
+selector{
+		declaration
+		|
+		'->property:value
+	}
+
+
+inline->css using style attribute in html element
+internal->writing css with <style>....</style>
+extenal -> <link rel=".....>
+
+inline>internal>extenal
+
+
+tag seleclor
+class -> not unique
+id -> unique(only once)
+
+
+div->grouping block(p, h1,li...)
+span-> grouping inline()

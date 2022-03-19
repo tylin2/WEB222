@@ -1,0 +1,78 @@
+/* write your CSS rules here or in the HTML document */
+
+/* task 1 */
+/*Create a CSS rule to set the page width to 80% and horizontally centered. 
+Hint: you can use ether body or .main-container as CSS selector, 
+and set property margin with value auto.*/
+.main-container{
+    margin: auto;
+    width: 80%;
+}
+/* task 2 */
+/*For text of all level-2 headings , 
+create a CSS rule to set text color to dark blue 
+and background color to #cccccc (using tag selector).*/
+h2{
+    color: darkblue;
+    background-color: #cccccc;
+}
+/* task 3 */
+/*For the paragraph with id="paragraph2", create a CSS rule to set font family to "Comic Sans MS",
+ "Comic Sans", "cursive" , set font size to 20pt (using ID selector).*/
+ p#paragraph2{
+     font-family: "Comic Sans MS", cursive, "Comic Sans";
+     font-size: 20pt;
+ }
+
+/* task 4 */
+/*For all span element with class="on", create a CSS rule to set text color to #5cb85c , 
+font weight to bold , and text decoration to underline (using class selector).*/
+span.on{
+    color: #5cb85c;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+/* task 5 */
+/*For table within div element with id="section2", 
+create a CSS rule to set background image to 
+https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg , 
+repeat, and set text color to #2f4f4f (using ID and contextual selector).*/
+div#section2 table{
+    background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg);
+    background-repeat: repeat;    
+    color: #2f4f4f;    
+}
+
+/* task 6 */
+/*For both thead and tfoot , create a CSS rule to set background color to rgba(255, 255, 0, 0.6) , 
+which is a RGB color with opacity, and set font style to italic (using group selector).*/
+thead, tfoot{
+    background-color: rgba(255, 255, 0, 0.6);
+    font-style: italic;
+}
+
+/* task 7 */
+/*Create a CSS rule to change the color of any paragraph in the document 
+to blue color using hexadecimal value when the cursor hovers over the paragraph .*/
+p:hover{
+    color: #0000ff;
+}
+
+/* task 8 */
+/*Create a CSS rule to set the list style type of all unordered list to square ,
+ and create another rule to set the list style type of all ordered list to lower alpha .*/
+ ul{
+     list-style-type: square;
+ }
+ ol{
+     list-style-type: lower-alpha;
+ }
+
+/* task 9 */
+/*Add ©2018 and your full name into the footer and text align it to center.*/
+footer{
+    text-align: center;
+}
+
+
